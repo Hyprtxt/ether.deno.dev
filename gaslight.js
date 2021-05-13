@@ -364,3 +364,7 @@ export function h(name, attrs) {
 
 // Mix & Export
 export const html = build.bind(h);
+
+// import htm from "https://unpkg.com/htm?module";
+// import vhtml from "https://unpkg.com/vhtml?module";
+// export const html = htm.bind(vhtml);
