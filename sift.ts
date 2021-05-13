@@ -1,7 +1,6 @@
 /// <reference lib="dom" />
 /// <reference lib="dom.iterable" />
 // This is https://deno.land/x/sift@0.3.0, but without Preact
-
 import {
   match,
   pathToRegexp,
