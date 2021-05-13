@@ -6,11 +6,10 @@ serve({
   "/": (r, p) =>
     renderPage(HomePage, {
       url: r.url,
-      title: "Gaslight",
-      cannonical: "https://gaslight.dev",
-      description: "Something",
+      title: "Simple Gaslight",
+      cannonical: "https://simple.gaslight.dev",
+      description: "Simple gaslight, no cookies.",
     }),
-  "/json": () => json({ is: "a_webserver" }),
   "/favicon.ico": serveStatic("public/favicon.ico"),
   "/js/:filename+": serveStatic("public/js"),
   "/css/:filename+": serveStatic("public/css"),
