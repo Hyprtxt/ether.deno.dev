@@ -4,7 +4,7 @@ Server side coding, that feel like client side react coding, without the lame pa
 
 ## How To
 
-Install Deno: https://deno.land/#installation
+Install Deno: from source `cargo install deno --locked` or https://deno.land/#installation
 
 Install deployctl: `deno install --allow-read --allow-write --allow-env --allow-net --allow-run --no-check -r -f https://deno.land/x/deploy/deployctl.ts`
 
