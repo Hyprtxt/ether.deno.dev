@@ -2,6 +2,21 @@
 
 Server side coding, that feel like client side react coding, without the lame parts. Except it's serverless.
 
+## What it is
+
+https://github.com/developit/htm
+https://github.com/developit/vhtml
+https://deno.land/x/sift
+
+* server side scaffolding for Deno serverless JavaScript
+
+## What it isn't 
+
+* React/JSX
+* Preact
+* A client side framework
+* Compatible with Internet Exploder
+
 ## How To
 
 Install Deno: from source `cargo install deno --locked` or https://deno.land/#installation
