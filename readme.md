@@ -2,12 +2,11 @@
 
 Server side coding, that feels like client side react coding, without the lame parts. Except it's serverless isomorphic javascript. So of course it lives on whole ton of servers on the cloud. Also some of the JS works client side!
 
-`/public` is client side assets
-`/elements` and `gaslight.js` are isomorphic and may be loaded server side or client side
-`*.ts` Most of the other bits are Deno typescript
-`website.ts` is the entry point for your… application
-
-Don't get confused!
+* `/public` is client side assets
+* `/elements` and `gaslight.js` are isomorphic and may be loaded server side or client side
+* `*.ts` Most of the other bits are Deno typescript
+* `website.ts` is the entry point for your… application
+* Don't get confused!
 
 ## What it is
 
