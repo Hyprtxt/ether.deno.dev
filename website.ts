@@ -6,9 +6,10 @@ serve({
   "/": (r, p) =>
     renderPage(HomePage, {
       url: r.url,
-      title: "Simple Gaslight",
-      cannonical: "https://simple.gaslight.dev",
-      description: "Simple gaslight, no cookies.",
+      title: "Ether Auther",
+      cannonical: "https://ether.deno.dev",
+      description:
+        "Authenticate to a website by having some ERC20 tokens from a specified contract.",
     }),
   "/favicon.ico": serveStatic("public/favicon.ico"),
   "/js/:filename+": serveStatic("public/js"),
