@@ -20,6 +20,7 @@ export const serveStatic = (relativePath: string) => {
         ? relativePath + params.filename
         : relativePath + "/" + params.filename;
     }
+    // console.log(request.headers);
     const fileUrl = new URL(filePath, URL_BASE).toString();
     return new Response(null, {
       headers: {
